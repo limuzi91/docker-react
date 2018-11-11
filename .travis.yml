@@ -6,4 +6,4 @@ before_install:
   - docker build -t michaelapp2017/docker-workflow -f Dockerfile.dev .
 
 script:
-  - docker run stephengrider/docker-react npm run test -- --coverage
+  - docker run michaelapp2017/docker-workflow npm run test -- --coverage
